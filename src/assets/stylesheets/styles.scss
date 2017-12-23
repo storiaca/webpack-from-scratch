@@ -13,3 +13,16 @@ body {
     font-weight: 900;
     font-family: $merriweather;
 }
+
+.container {
+    width: 100%;
+    display: flex;
+    .image-wrapper {
+      display: inline-block;
+      margin: 0 10px;
+      &__image {
+        width: auto;
+        height: 300px;
+      }
+    }
+}
